@@ -24,7 +24,7 @@ elif [ "$1" = "create" ]; then
       echo "Waiting for nginx to set up. ~20s."
       sleep 20
 
-      kubectl describe svc nginx4 --namespace nginx-ingress4
+      kubectl describe svc nginx6 --namespace nginx-ingress6
       kubectl apply -f ${DIR}/yamls/application/service.yaml
       kubectl apply -f ${DIR}/yamls/application/deployment.yaml
       kubectl apply -f ${DIR}/yamls/application/ingress-notls.yaml
