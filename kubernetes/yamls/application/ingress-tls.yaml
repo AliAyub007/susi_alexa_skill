@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts:
     - susi-alexa.tk
-    secretName: alexa-tls
+    secretName: susialexa-tls
   rules:
   - host: susi-alexa.tk
     http:
