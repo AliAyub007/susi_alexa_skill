@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: alexa
-        image: aliayubkhan/susi_alexa_skill:latest
+        image: fossasia/susi_alexa_skill:latest-master
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

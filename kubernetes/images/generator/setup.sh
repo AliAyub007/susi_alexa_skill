@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone ${REPOSITORY} susi_fbbot
-cd susi_fbbot
+git clone ${REPOSITORY} susi_alexa_skill
+cd susi_alexa_skill
 git checkout ${BRANCH}
 
 if [ -v COMMIT_HASH ]; then
